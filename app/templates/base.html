@@ -16,18 +16,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url_for('index') }}">Rebeca Carrillo</a>
+                <a class="navbar-brand" href="https://beca.dev">Rebeca Carrillo</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <li><a href="{{ url_for('links') }}">Past Work + Links</a></li>
                     <li><a href="{{ url_for('eng') }}">Sofware Engineering</a></li>
-                    <li><a href="{{ url_for('about') }}">Interested In</a></li>
-                    <li><a href="{{ url_for('old') }}">Bio</a></li>
+                    <li><a href="{{ url_for('about') }}">Interests</a></li>
+                    <li><a href="{{ url_for('old') }}">About</a></li>
                     <li><a href="{{ url_for('values') }}">Values</a></li>
                     <li><a href="{{ url_for('art') }}">Knots & Seams</a></li>
-
-
-
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -38,11 +36,13 @@
             </div>
         </div>
     </nav>
-<img src="https://assets.codepen.io/301741/vintage-boxing.jpg?format=auto">
 
  <body>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+
 
     </body>
 

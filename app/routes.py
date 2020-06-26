@@ -4,7 +4,11 @@ from flask import Flask, render_template
 
 @app.route('/')
 def index():
-    return render_template('base.html')
+    return render_template('home.html')
+
+@app.route('/links')
+def links():
+    return render_template('links.html')
 
 @app.route('/about')
 def about():
