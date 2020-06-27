@@ -5,7 +5,7 @@ asn1crypto==0.24.0
 attrs==18.2.0
 Babel==2.6.0
 backcall==0.1.0
-bleach==2.1.4
+bleach==3.1.4
 boto3==1.9.83
 botocore==1.12.83
 branca==0.3.1
