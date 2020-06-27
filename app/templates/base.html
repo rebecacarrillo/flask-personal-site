@@ -6,8 +6,17 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
 {% block navbar %}
-    <nav class="navbar navbar-default">
+<style type="text/css">
+    .navbar {
 
+        background-color: white;
+        background-opacity: 0.1;
+        border-bottom: none;
+    }
+
+</style>
+<div class="navbar">
+    <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -20,19 +29,10 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url_for('links') }}">Past Work + Links</a></li>
-                    <li><a href="{{ url_for('eng') }}">Sofware Engineering</a></li>
-                    <li><a href="{{ url_for('about') }}">Interests</a></li>
-                    <li><a href="{{ url_for('old') }}">About</a></li>
-                    <li><a href="{{ url_for('values') }}">Values</a></li>
-                    <li><a href="{{ url_for('art') }}">Knots & Seams</a></li>
-
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('art') }}">Sofware Engineering</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                                        <li><a href="{{ url_for('old') }}">*</a></li>
 
-
-                </ul>
             </div>
         </div>
     </nav>
@@ -47,3 +47,5 @@
     </body>
 
 {% endblock %}
+{% block card %} {% endblock %}
+{% block footer %} {% endblock %}

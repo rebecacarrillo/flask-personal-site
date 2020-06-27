@@ -64,8 +64,8 @@ nav {
   position: relative;
   font-family: 'Droid Serif';
   size: 30px;
-  background: white;
-  ;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
 }
 nav .main-nav {
   height: 0;
@@ -73,6 +73,8 @@ nav .main-nav {
   padding: 0;
   list-style: none;
   overflow: hidden;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
 }
 nav .main-nav li {
   visibility: visible;
