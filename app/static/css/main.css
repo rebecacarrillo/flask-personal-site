@@ -90,7 +90,7 @@ nav .main-nav a {
   padding-top: .2em;
 }
 .main-nav li:nth-of-type(2) a {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.);
 }
 .main-nav li:nth-of-type(3) a {
   background-color: rgba(0, 0, 0, 0.1);
@@ -153,6 +153,7 @@ nav .main-nav a:active {
   }
   .main-nav li a {
     text-align: center;
+
   }
 }
 
