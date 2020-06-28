@@ -4,11 +4,9 @@ Porting http://beca.dev to a flask application after 6+ years of suffering throu
 
  ## Quick Start
  In the terminal, clone the repo and cd into it.
- Create a virtualenv and install requirements
  Source the startup bash script and navigate to localhost:5000
  ```
-  $ python3 -m venv py3
-  $ source ~py3/bin/activate
+  $ source ~py3-flask/bin/activate
   $ pip3 install -r requirements.txt`
   $ source start.sh
 
