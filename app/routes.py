@@ -6,6 +6,10 @@ from flask import Flask, render_template
 def index():
     return render_template('home.html')
 
+@app.route('/cards')
+def card():
+    return render_template('card.html')
+
 @app.route('/links')
 def links():
     return render_template('links.html')
