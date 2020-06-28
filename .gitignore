@@ -4,4 +4,3 @@
 *.pyc
 !spec/*.pyc
 **/__pycache__
-*
