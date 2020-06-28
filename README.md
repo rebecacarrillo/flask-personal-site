@@ -19,3 +19,6 @@ Porting http://beca.dev to a flask application after 6+ years of suffering throu
 2. Model the card object - image and text
 3. POST endpoint for storing images to create a card
 4. Components in templates
+
+
+ Mockups: https://drive.google.com/drive/folders/18HprvpN9EU4AkaQ98cCL0GJ0n_27Bh_O
