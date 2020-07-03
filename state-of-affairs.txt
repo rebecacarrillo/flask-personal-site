@@ -1,7 +1,0 @@
-Logging
-
-Sunday:
-    I want to make card comppnenets.
-    - I really want to fix some shit about zsh - find command to open new wintow with the same directiory. in iTerm I wanna find out how to make the text default bigger
-    - made a little project board with todos and shit
-    - linked mockups
