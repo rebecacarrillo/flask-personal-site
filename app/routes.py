@@ -2,10 +2,10 @@ from app import app
 from flask import Flask, render_template
 
 
-@app.route('/')
+@app.route('/home')
 def index():
     return render_template('base.html')
-@app.route('/home')
+@app.route('/home1')
 def home():
     return render_template('home.html')
 
@@ -17,9 +17,9 @@ def about():
 def oops():
     return render_template('mistakes.html')
 
-@app.route('/engineering')
-def eng():
-    return render_template('engineering.html')
+@app.route('/next')
+def nxt():
+    return render_template('next.html')
 
 @app.route('/old')
 def old():
