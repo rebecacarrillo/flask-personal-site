@@ -1,23 +1,130 @@
-{% extends "home.html" %}
+{% extends "base.html" %}
+{% block navbar %}
 
-{% block head %}
-    {{ super() }}
-    <style type="text/css">
+<style type="text/css">
+        .navbar {
+        border: none;
+        margin-bottom:0;
+        }
 
-</style>
+        .hero0 {
+        height: 600px;
+        width: auto;
+        position: relative;
+
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+
+        }
+
+          .blkbox {
+
+        background-color: black;
+        padding: 50px;
+
+        margin-top: 50px;
+        height: 400px;
+                background-image:url("{{ url_for('static', filename='img/dog.JPG') }}");
+
+       }
+
+
+
+
+        .blurb {
+        background: white;
+        padding: 40px;
+        border-radius: 15%;
+
+        }
+
+        .hero1 {
+        height: 600px;
+        width: auto;
+        position: relative;
+
+        padding: 100px;
+        margin: 50px;
+        background-image:url("{{ url_for('static', filename='img/b1.jpg') }}");
+        background-repeat: no-repeat;
+         background-size: auto;
+
+
+        }
+         .hero2 {
+        position: absolute;
+        height: 600px;
+        width: 400px;
+        padding: 50px;
+        margin-left: 30px;
+        margin-right: 10px;
+
+        background-image:url("{{ url_for('static', filename='img/b3.jpg') }}");
+                background-repeat: no-repeat;
+                          background-size: 400px 600px;
+
+
+
+
+        }
+    </style>
+<div class="navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://beca.dev">Rebeca Carrillo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('art') }}">Sofware Engineering</a></li>
+                    <li><a href="{{ url_for('values') }}"><b>Values</b></a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
 {% endblock %}
+
+
+
 {% block content %}
 
 
 <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+
+
+
 
 <div class="team-content-container">
 
+    <div class="blkbox">
+    <label>fuck</label>
+        <div class="column ten"><h3>header3</h3><label>
+</label></div>
+<p>small caption</p>
+</div>
     <div class="tagline"><h1><span>Codigo / </span>Values</span></h1>Reglas</div>
 <div class="column centered six">
     <div class="blurb">
-
+<div class="column ten"><label>test
+</label></div>
 <p><i>"When there was still night, in a primeval time, the gods earned, through their
 own voluntary sacrifice and death, the restoration of the Sun, moon, earth,
 and human beings. The universe in which Mesoamericans have lived and
