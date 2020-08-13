@@ -5,37 +5,51 @@
         .navbar {
         border: none;
         margin-bottom:0;
+        background-color: black;
         }
-
-        .hero0 {
-        height: 600px;
-        width: auto;
-        position: relative;
-
-        padding: 100px;
-        magin-left: 10px;
-        margin-right: 0px;
-        background-color: #F0F0F0;
-
-
-        }
-
-          .blkbox {
+         .blkbox {
 
         background-color: black;
         padding: 50px;
 
         margin-top: 50px;
-        height: 400px;
+        height: 350px;
                 background-image:url("{{ url_for('static', filename='img/dog.JPG') }}");
 
+       }
+       .bahai {
+            font-family: serif;
+            color: orange;
+            text-transform: uppercase;
+            border: 1px solid;
+            margin: 20px;
+            padding: 60px;
+            background: #f5f5f5;
+            opacity: .9;
+       }
+
+       .grey {
+            height: auto;
+            width: auto;
+            background-color: #F0F0F0;
+            padding: 50px;
+       }
+
+       .trublk {
+            background-color: black;
+            height: auto;
+
+
+       }
+
+       .recent-content-container {
+       background-color: black;
        }
 
 
 
 
         .blurb {
-        background: white;
         padding: 40px;
         border-radius: 15%;
 
@@ -108,40 +122,42 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
-
-
-
-
 <div class="team-content-container">
 
-    <div class="blkbox">
-    <label>fuck</label>
-        <div class="column ten"><h3>header3</h3><label>
-</label></div>
-<p>small caption</p>
-</div>
-    <div class="tagline"><h1><span>Codigo / </span>Values</span></h1>Reglas</div>
-<div class="column centered six">
-    <div class="blurb">
-<div class="column ten"><label>test
-</label></div>
-<p><i>"When there was still night, in a primeval time, the gods earned, through their
-own voluntary sacrifice and death, the restoration of the Sun, moon, earth,
-and human beings. The universe in which Mesoamericans have lived and
-many still think in this manner-has been established, destroyed, and reestab-
-    lished several times: four according to the Maya, five in the Nahua tradition."</i></p>
-    <p>I grew up 30 minutes north of the Mexican border. My experience at the crux of cultures molded me.
-    </p>
-        <p>I fight strangers and build software. I'm really shy
-        </p>
+
+    <div class="tagline"><h1><span>Codigo / </span>Values</span></h1></div>
+    <div class="row">
+
     </div>
 </div>
+<div class="column centered six">
+        <div class="grey">
+
+<div class="bahai">
+
+        <p>For every one of you his paramount duty is to choose
+        for himself that on which no other may infringe and none usurp from him. </p>
+        <p> Such a thing--- and to  this the Almighty is My witness--- is the love of God,</p>
+        <p>could ye but perceive it.</p>
+
+    <p> - Baha'u'llah</p>
+    </div>
+</div>
+        <div class="column centered eight"></column>
+</div>
+</div>
+</div>
+</div>
+<section>
+<div class="row offset-by-two">
+
+
+
+<div class="blkbox">
 
 </div>
-    <div class="row"></div>
-
 <div class="column ten"><label>test
 </label></div>
-
-
+</div>
+</section>
 {% endblock %}
