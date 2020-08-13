@@ -6,6 +6,16 @@
         border: none;
         margin-bottom:0;
         }
+        .hero {
+        padding: 100px;
+        margin: 40px;
+
+
+        background-image:url("{{ url_for('static', filename='img/b1.jpg') }}");
+        height: 700px;
+
+
+        }
     </style>
 <div class="navbar">
     <nav class="navbar navbar-default">
@@ -25,6 +35,7 @@
                     <li><a href="{{ url_for('art') }}">Sofware Engineering</a></li>
                     <li><a href="{{ url_for('values') }}">Values</a></li>
 
+
                 </ul>
 
             </div>
@@ -39,17 +50,9 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 
 
-     <div id="header-container">
-    <div class="header full-header">
-        what<img src="https://beca.dev/img/bw.png">
 
+ </div>
 
-      <div id="sequence">
-        what<img src="https://beca.dev/img/bw.png">
-
-      </div>
-    </div>
-  </div>
 
 {% endblock %}
 

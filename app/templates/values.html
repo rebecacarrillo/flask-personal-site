@@ -1,22 +1,40 @@
-{% extends "base.html" %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/values.css') }}">
- <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
+{% extends "home.html" %}
+
 {% block head %}
     {{ super() }}
     <style type="text/css">
-    body, html {
-        background-color: black;
-    }
-    navbar {
-             background-color: black;
-        }
-    .list {
-        position: -50px;
-    }
+
 </style>
 {% endblock %}
 {% block content %}
-fff
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+
+<div class="team-content-container">
+
+    <div class="tagline"><h1><span>Codigo / </span>Values</span></h1>Reglas</div>
+<div class="column centered six">
+    <div class="blurb">
+
+<p><i>"When there was still night, in a primeval time, the gods earned, through their
+own voluntary sacrifice and death, the restoration of the Sun, moon, earth,
+and human beings. The universe in which Mesoamericans have lived and
+many still think in this manner-has been established, destroyed, and reestab-
+    lished several times: four according to the Maya, five in the Nahua tradition."</i></p>
+    <p>I grew up 30 minutes north of the Mexican border. My experience at the crux of cultures molded me.
+    </p>
+        <p>I fight strangers and build software. I'm really shy
+        </p>
+    </div>
+</div>
+
+</div>
+    <div class="row"></div>
+
+<div class="column ten"><label>test
+</label></div>
 
 
 {% endblock %}

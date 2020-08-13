@@ -1,1 +1,143 @@
-<img src="https://assets.codepen.io/301741/vintage-boxing.jpg?format=auto">
+{% extends "base.html" %}
+{% block navbar %}
+
+<style type="text/css">
+        .navbar {
+        border: none;
+        margin-bottom:0;
+        }
+
+        .hero0 {
+        height: 600px;
+        width: auto;
+        position: relative;
+
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+
+        }
+        .blurb {
+        background: white;
+        padding: 40px;
+        border-radius: 15%;
+
+        }
+
+        .hero1 {
+        height: 600px;
+        width: auto;
+        position: relative;
+
+        padding: 100px;
+        margin: 50px;
+        background-image:url("{{ url_for('static', filename='img/b1.jpg') }}");
+        background-repeat: no-repeat;
+         background-size: auto;
+
+
+        }
+         .hero2 {
+        position: absolute;
+        height: 600px;
+        width: 400px;
+        padding: 50px;
+        margin-left: 30px;
+        margin-right: 10px;
+
+        background-image:url("{{ url_for('static', filename='img/b3.jpg') }}");
+                background-repeat: no-repeat;
+                          background-size: 400px 600px;
+
+
+
+
+        }
+    </style>
+<div class="navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://beca.dev">Rebeca Carrillo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('art') }}">Sofware Engineering</a></li>
+                    <li><a href="{{ url_for('values') }}">Values</a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+{% endblock %}
+
+{% block content %}
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+<div class="column centered seven">
+    <div class="blurb">
+        <div class="tagline">
+            <h1><span> HAPPILY A </span><br>
+                SOFTWARE ENGINEER BY TRADE*</h1></div>
+        <p><i>I'm a software polygot with 5+ years of experience, typically building <b>backends and infrastructure</b> (Python, Docker, AWS, PHP, Airflow)
+    </i>
+        <p><i><b>I'm also an experienced Data Engineer</b></i>.<i>
+
+        At Uptake, an IoT Unicorn in Chicago, I learned to build high volume pipelines as the first Data Engineer hired to the Data Science team.</p>
+        *<small>don't hold it against me.</small></i>
+<br>
+    </div>
+</div>
+
+
+<div class="row push-two">
+    <div class="centered column">
+<div class="hero2"><h1>SKILLS</h1></div>
+</div>
+
+ <div class="row"><div class="offset-by-six">
+<div class="hero0"><div class="blurb">
+     <p> I’ve worked in startups my whole career.
+            Last year, I also built Magic, an open source decentralized internet access gateway,
+            with some colleagues.
+        </p>
+        <p>
+            If you want connect about tech or startup stuff,
+            you should head to my contact page, where my calendly, etc. live</p>
+    <p>No recruiters please</p>
+
+<p>-Beca</p></div>
+
+    </div>
+    </div>
+
+
+<section>
+
+  <div class="recent-content-tabs">
+      kkl
+  <div class="recent-article">
+dd
+  </div>
+  </div>
+lklk
+</section>
+
+{% endblock %}
+
+{% block footer %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+ {% endblock %}
