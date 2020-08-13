@@ -25,6 +25,18 @@
 
         }
 
+        .squad {
+        position: relative;
+        height: 600px;
+        width: 500px;
+
+        background-image:url("{{ url_for('static', filename='img/herosquad.jpg') }}");
+        background-repeat: no-repeat;
+        background-size: 380px 500px;
+
+
+        }
+
         .street {
         height: 500px;
         width: 400px;
@@ -34,6 +46,18 @@
         background-image:url("{{ url_for('static', filename='img/st.JPG') }}");
         background-repeat: no-repeat;
         background-size: auto;
+        }
+
+        .greyboy {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+
         }
 
 
@@ -71,7 +95,9 @@
  <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 <div class="column centered seven">
+
     <div class=street>
+
                   <div class="blurb">hey man like idk man no manches wey</div>
 
       </div>
@@ -81,13 +107,31 @@
 
   <div class="recent-content-tabs">
 
-  <div class="recent-article">
-dd
-  </div>
-  </div>
-lklk
-</section>
 
+
+</section>
+<div class="row"><div class="offset-by-six">
+<div class="recent-article">
+      <div class=squad>
+
+      </div>
+  </div>
+
+    </div>
+    </div>
+
+
+<section>
+
+  <div class="recent-content-tabs">
+  <div class="recent-article">
+
+</section>
+<div class="column centered four">
+    <div class=greyboy>
+
+      </div>
+</div>
 {% endblock %}
 
 {% block footer %}
