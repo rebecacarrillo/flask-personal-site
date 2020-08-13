@@ -1,48 +1,71 @@
-{% extends "base.html" %}
+{% extends "home.html" %}
 {% block title %}About{% endblock %}
 {% block head %}
     {{ super() }}
     <style type="text/css">
         .important { color: #336699; }
-        .nav { font-family: 'Droid-Serif',
-        font-size: 40px
+        .pic  {
+
+            opacity: 10%;
         }
+        .ch-item {
+
+               background-image:url("{{ url_for('static', filename='img/f2.jpg') }}");
+
+        }
+        .blurb {
+        background: white;
+        padding: 40px;
+        border-radius: 15%;
+
+        }
+        label {
+        font-family:'Droid Serif';
+        text-transform: uppercase;
+
+
     </style>
 {% endblock %}
 {% block content %}
 
-
 <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 
-
 <div class="team-content-container">
-        <div class="row">
+<p class="lead">About Me</p> <ul class="ch-grid">
 
-     <div id="header-container">
-    <div class="header full-header">
+           <li>
+                <div class="ch-item">
+                    <div class="pic"><p>Hi</p></div>
+                </div>
+           </li>
 
-      <div id="sequence">
-      <img src="static/img/barley1.jpg">
 
-      </div>
+
+        </ul>
+
+    <div class="tagline"><h1>I'm from the borderlands. <span> Soy de la frontera</span></h1></div>
+<div class="column centered six">
+    <div class="blurb">
+
+<p><i>"When there was still night, in a primeval time, the gods earned, through their
+own voluntary sacrifice and death, the restoration of the Sun, moon, earth,
+and human beings. The universe in which Mesoamericans have lived and
+many still think in this manner-has been established, destroyed, and reestab-
+    lished several times: four according to the Maya, five in the Nahua tradition."</i></p>
+    <p>I grew up 30 minutes north of the Mexican border. My experience at the crux of cultures molded me.
+    </p>
+        <p>I fight strangers and build software. I'm really shy
+        </p>
     </div>
-  </div>
-        </div>
 </div>
 
-
-<div class="container">
-    <p class="lead">This is just a placeholder page which should be replaced with real content.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus ligula, imperdiet id lobortis sit amet, scelerisque non sapien. Duis quis dui quis mauris dapibus fringilla. Pellentesque nec tellus ac diam volutpat malesuada.</p>
-<p>In quam arcu, interdum vel arcu viverra, vulputate convallis massa. Sed hendrerit velit a arcu euismod, sit amet consequat lacus imperdiet. Nullam quis dui sapien. Vestibulum placerat, justo non fringilla laoreet, dui ipsum posuere nisi, nec vestibulum eros leo ut sapien.</p>
-<p>Vivamus eu felis sed magna scelerisque semper in et libero. Curabitur sed convallis odio, quis venenatis sapien. In convallis a velit ac commodo. Donec sapien ligula, vestibulum ut nisi accumsan, facilisis pretium est. Fusce varius semper orci, et egestas nulla cursus a. Phasellus aliquam, mi ac adipiscing lobortis, ipsum augue aliquam ligula, quis fermentum mi augue vel ligula.</p>
-<p>Integer elementum malesuada dolor in aliquet.</p>
 </div>
+    <div class="row"></div>
 
-
+<div class="column ten"><label>test
+</label></div>
 
 {% endblock %}
-
 
 

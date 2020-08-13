@@ -1,28 +1,22 @@
 {% extends "base.html" %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/values.css') }}">
  <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
-
-{% block content %}
-<style type="text/css">
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
     body, html {
         background-color: black;
     }
-    .navbar {
+    navbar {
              background-color: black;
         }
+    .list {
+        position: -50px;
+    }
 </style>
-<html>
+{% endblock %}
+{% block content %}
+fff
 
 
-<div class="row">RESDF</div>
-
-<div id="header-container">
-    <div class="header full-header">
-        what
-    </div>
-</div>
-
-<div class="top"><p>FESEF</p><h5>TEST</h5>TEST</div>
-</body>
-</html>
 {% endblock %}

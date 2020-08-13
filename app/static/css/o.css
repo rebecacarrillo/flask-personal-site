@@ -15,7 +15,7 @@ h3 {
 	font-size: 80%; }
 body {
   background: white;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -111,7 +111,7 @@ aside p {
   font-style: italic; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: serif;
   font-weight: bold;
   font-style: normal;
   color:#99F3F1;
@@ -142,7 +142,7 @@ h5 {
 h6 {
   font-size: 14px; }
 h7 {font-size: 50px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, serif;
 	text-transform:uppercase;
 }
 
@@ -4188,7 +4188,7 @@ ul li, ol li {
   list-style: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 500;
   color: #2f2f2f; }
 
@@ -4228,7 +4228,7 @@ ul.accordion > li.active, dl.tabs dd.active {
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
   color: #999;
   font-size: 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 
 .subheader {
   color: #5f5f5f; }
@@ -4240,7 +4240,7 @@ body {
 .nav-container {
   background: #fff;
   border-top: 3px solid #f7f7f7;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .nav-container .top-bar ul {
   height: auto; }
 .nav-container .top-bar {
@@ -4989,7 +4989,7 @@ body {
   padding: 20px 0;
   color: #303030;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .msg-inner-container h3 {
   font-weight: 300;
   color: #303030; }
@@ -5001,7 +5001,7 @@ body {
   font-size: 22px;
   text-align: center;
   border: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .msg-inner-container blockquote cite {
   font-weight: bold;
   margin-top: 5px; }
@@ -5010,7 +5010,7 @@ body {
   margin: -10px 0 20px 0; }
 
 #jtwt_text p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 400;
   color: #AAA;
   text-align: left;
@@ -5135,7 +5135,7 @@ footer {
 
 #filter-animate {
   border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 13px;
   text-transform: uppercase; }
 
@@ -5151,7 +5151,7 @@ footer {
   opacity: 0; }
 #filters li a {
   color: #5b5b5b;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   text-transform: uppercase;
   font-size: 13px; }
 #filters li a span {
@@ -5279,7 +5279,7 @@ footer {
 .newsletter-subscription .subscription-button {
   border-radius: 0;
   line-height: 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 15px; }
 
 /**** Isotope Filtering ****/
@@ -5345,7 +5345,7 @@ footer {
 .widgets .search-widget {
   padding-top: 8px; }
 .widgets .search-widget input {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 13px;
   padding-left: 15px;
   border-radius: 30px;
@@ -5367,7 +5367,7 @@ footer {
 .widgets dl.tabs dd.active a {
   font-weight: 600; }
 .widgets dd a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 
 .blog-inner-container {
   margin-bottom: 60px;
@@ -5390,7 +5390,7 @@ footer {
   border-bottom: 1px dotted #5B5B5B; }
 .blog-inner-container .blog-information {
   text-align: right;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .blog-inner-container .blog-information a {
   color: #999; }
 .blog-inner-container .blog-information .blog-date {
@@ -5440,7 +5440,7 @@ ul.orbit-bullets li {
 .comments-information .comments-amount {
   font-size: 23px;
   font-weight: 600;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 
 .comment-avatar {
   width: 60%; }
@@ -5474,7 +5474,7 @@ ul.orbit-bullets li {
 .comment-reply ul li {
   text-align: center;
   font-size: 14px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 500;
   line-height: 20px;
   text-transform: uppercase;
@@ -5499,11 +5499,11 @@ ul.orbit-bullets li {
   border-top: 2px solid #f5f5f5; }
 .comments-form .comments-button {
   border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 14px; }
 .comments-form legend {
   font-size: 14px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 500;
   line-height: 20px;
   text-transform: uppercase;
@@ -5514,7 +5514,7 @@ ul.orbit-bullets li {
   margin-top: 10px;
   color: #5B5B5B;
   font-size: 12px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Garamond",Garamond,Arial,serif;
   text-transform: none; }
 .comments-form label.inline, .comments-form label {
   font-size: 13px;
@@ -5597,7 +5597,7 @@ ________________________________________________________________________________
   margin: 0;
   padding: .5em 0;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 300;
   font-size: 64px;
   color: #2f2f2f; }
@@ -5608,7 +5608,7 @@ ________________________________________________________________________________
   margin: 0;
   padding: .5em 0;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 600;
   color: #de3c20;
   font-size: 26px; }
@@ -5636,7 +5636,7 @@ ________________________________________________________________________________
   padding-top: 20px;
   padding-left: 20%; }
 .pricetable-description ul li {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   line-height: 30px;
   font-size: 14px;
   color: #2F2F2F;
@@ -5789,7 +5789,7 @@ ________________________________________________________________________________
 
 .expertise {
   margin: 40px 0 60px 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .expertise a.expertise-icon {
   text-align: center;
   display: block;
@@ -5936,7 +5936,7 @@ ________________________________________________________________________________
   padding: 10px; }
 #map .contact-information .inner-contact-information address {
   line-height: 25px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-style: normal; }
 #map .contact-information h3 {
   font-weight: 500; }
@@ -6441,7 +6441,7 @@ html {
 
 body {
   background: white;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Garamond", "Garamond", Garamond, Arial, serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -6531,7 +6531,7 @@ aside p {
   font-style: italic; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Garamond", "Garamond", Garamond, Arial, serif;
   font-weight: bold;
   font-style: normal;
   color: #222222;
@@ -10600,7 +10600,7 @@ ul li, ol li {
   list-style: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 500;
   color: #2f2f2f; }
 
@@ -10640,7 +10640,7 @@ ul.accordion > li.active, dl.tabs dd.active {
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
   color: #999;
   font-size: 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 
 .subheader {
   color: #5f5f5f; }
@@ -10652,7 +10652,7 @@ body {
 .nav-container {
   background: #fff;
   border-top: 3px solid #f7f7f7;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .nav-container .top-bar ul {
   height: auto; }
 .nav-container .top-bar {
@@ -11401,7 +11401,7 @@ body {
   padding: 20px 0;
   color: #303030;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .msg-inner-container h3 {
   font-weight: 300;
   color: #303030; }
@@ -11413,7 +11413,7 @@ body {
   font-size: 22px;
   text-align: center;
   border: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .msg-inner-container blockquote cite {
   font-weight: bold;
   margin-top: 5px; }
@@ -11422,7 +11422,7 @@ body {
   margin: -10px 0 20px 0; }
 
 #jtwt_text p {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 400;
   color: #AAA;
   text-align: left;
@@ -11547,7 +11547,7 @@ footer {
 
 #filter-animate {
   border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 13px;
   text-transform: uppercase; }
 
@@ -11563,7 +11563,7 @@ footer {
   opacity: 0; }
 #filters li a {
   color: #5b5b5b;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   text-transform: uppercase;
   font-size: 13px; }
 #filters li a span {
@@ -11691,7 +11691,7 @@ footer {
 .newsletter-subscription .subscription-button {
   border-radius: 0;
   line-height: 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 15px; }
 
 /**** Isotope Filtering ****/
@@ -11757,7 +11757,7 @@ footer {
 .widgets .search-widget {
   padding-top: 8px; }
 .widgets .search-widget input {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 13px;
   padding-left: 15px;
   border-radius: 30px;
@@ -11779,7 +11779,7 @@ footer {
 .widgets dl.tabs dd.active a {
   font-weight: 600; }
 .widgets dd a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 
 .blog-inner-container {
   margin-bottom: 60px;
@@ -11802,7 +11802,7 @@ footer {
   border-bottom: 1px dotted #5B5B5B; }
 .blog-inner-container .blog-information {
   text-align: right;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .blog-inner-container .blog-information a {
   color: #999; }
 .blog-inner-container .blog-information .blog-date {
@@ -11852,7 +11852,7 @@ ul.orbit-bullets li {
 .comments-information .comments-amount {
   font-size: 23px;
   font-weight: 600;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 
 .comment-avatar {
   width: 60%; }
@@ -11886,7 +11886,7 @@ ul.orbit-bullets li {
 .comment-reply ul li {
   text-align: center;
   font-size: 14px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 500;
   line-height: 20px;
   text-transform: uppercase;
@@ -11911,11 +11911,11 @@ ul.orbit-bullets li {
   border-top: 2px solid #f5f5f5; }
 .comments-form .comments-button {
   border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-size: 14px; }
 .comments-form legend {
   font-size: 14px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 500;
   line-height: 20px;
   text-transform: uppercase;
@@ -11926,7 +11926,7 @@ ul.orbit-bullets li {
   margin-top: 10px;
   color: #5B5B5B;
   font-size: 12px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Garamond",Garamond,Arial,serif;
   text-transform: none; }
 .comments-form label.inline, .comments-form label {
   font-size: 13px;
@@ -12009,7 +12009,7 @@ ________________________________________________________________________________
   margin: 0;
   padding: .5em 0;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 300;
   font-size: 64px;
   color: #2f2f2f; }
@@ -12020,7 +12020,7 @@ ________________________________________________________________________________
   margin: 0;
   padding: .5em 0;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-weight: 600;
   color: #de3c20;
   font-size: 26px; }
@@ -12048,7 +12048,7 @@ ________________________________________________________________________________
   padding-top: 20px;
   padding-left: 20%; }
 .pricetable-description ul li {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   line-height: 30px;
   font-size: 14px;
   color: #2F2F2F;
@@ -12201,7 +12201,7 @@ ________________________________________________________________________________
 
 .expertise {
   margin: 40px 0 60px 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif; }
 .expertise a.expertise-icon {
   text-align: center;
   display: block;
@@ -12348,7 +12348,7 @@ ________________________________________________________________________________
   padding: 10px; }
 #map .contact-information .inner-contact-information address {
   line-height: 25px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Garamond", Garamond, Arial, serif;
   font-style: normal; }
 #map .contact-information h3 {
   font-weight: 500; }
