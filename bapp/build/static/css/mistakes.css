@@ -1,0 +1,143 @@
+p {
+  font-family: Helvetica Neue;
+  font-weight: 12px;
+  color: grey;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.article {
+  background: black;
+  padding: 50px 20px;
+  text-transform: lower-case;
+  font-color: white;
+}
+.monogram {
+	display: block;
+	width: auto;
+	height: 25px;
+	#text-indent: -9999px;
+	margin: 0 auto;
+	opacity: 1;
+	transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+}
+
+.monogram a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url('..') no-repeat;
+	outline: none;
+}
+
+.monogram:hover {
+	opacity: .5;
+}
+
+#hello {
+	background: #f5f5f5;
+  padding: 10px 0px;
+}
+
+.hello_title {
+	font-family: 'ProximaNovaRegular', Helvetica, Arial, sans-serif;
+	color: #bf7e01;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 13px;
+	font-style: normal;
+	padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.anchor {
+	display: block;
+	background: url('https://upload.wikimedia.org/wikipedia/commons/e/ee/Phaeton-engraving.jpg') no-repeat;
+  opacity: 0.4;
+  border: 25px solid white;
+	width: 736px;
+	height: 589px;
+	margin: 0px auto;
+}
+@font-face {
+font-family: 'ProximaNovaLight';
+    src: url('ProximaNova-Light-webfont.eot');
+    src: url('ProximaNova-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ProximaNova-Light-webfont.woff') format('woff'),
+         url('ProximaNova-Light-webfont.ttf') format('truetype'),
+         url('ProximaNova-Light-webfont.svg#ProximaNovaLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('ProximaNova-Reg-webfont.eot');
+    src: url('ProximaNova-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ProximaNova-Reg-webfont.woff') format('woff'),
+         url('ProximaNova-Reg-webfont.ttf') format('truetype'),
+         url('ProximaNova-Reg-webfont.svg#ProximaNovaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('ProximaNova-Bold-webfont.eot');
+    src: url('ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ProximaNova-Bold-webfont.woff') format('woff'),
+         url('ProximaNova-Bold-webfont.ttf') format('truetype'),
+         url('ProximaNova-Bold-webfont.svg#ProximaNovaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.button {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 30px 10px 5px 0px;
+  text-transform: uppercase;
+  text-align: center;
+  color: darkgrey;
+  background-color: darkgrey;
+  border: 3px solid darkgrey;
+  &:hover;
+    cursor: pointer;
+  }
+
+.button-effect {
+  position: absolute;
+  overflow: hidden;
+  }
+.effect-wave {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+
+  background-color: yellow;
+  opacity: 0.5;
+}
+
+.overlay {
+  font-weight: heavy;
+  font-color: black;
+  opacity: 1;
+  text-transform: lowercase;
+}
+a {
+  font-weight: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+}
+smallf {
+  font-weight: 5px;
+  text-transform: uppercase;
+  color: darkgrey;
+}

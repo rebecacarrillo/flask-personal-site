@@ -1,1 +1,1 @@
-from app import app
+from bapp import app
