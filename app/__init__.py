@@ -1,14 +1,14 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
 
+app = Flask(__name__)
+
 
 def create_app():
-
-    app = Flask(__name__)
-    Bootstrap(app)
-
-    return app
-
+    with app.app_context():
+        from . import routes  # Import routes
+        Bootstrap(app)
+        return app
 
 
 

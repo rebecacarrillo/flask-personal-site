@@ -5,6 +5,7 @@ from flask import Flask, render_template
 @app.route('/')
 def index():
     return render_template('base.html')
+
 @app.route('/home1')
 def home():
     return render_template('home.html')
