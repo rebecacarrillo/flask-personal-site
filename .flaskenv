@@ -1,1 +1,1 @@
-FLASK_APP=beca.py
+FLASK_APP=wsgi.py
