@@ -1,7 +1,6 @@
 import sys
-sys.path.insert(0, "/bapp/bapp")
-from bapp import create_app
-from flask_bootstrap import Bootstrap
+sys.path.insert(0, "/app/app")
+from app import create_app
 
 app = create_app()
 
