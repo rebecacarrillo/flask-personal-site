@@ -3,11 +3,14 @@ from flask_bootstrap import Bootstrap
 from jinja2 import TemplateNotFound
 
 simple_page = Blueprint('simple_page', __name__,
-                        template_folder='templates')
+                        template_folder='templates',
+                        static_folder='static',
+                        static_url_path='http://borky.xyz/')
 
 
-@simple_page.route('/', defaults={'page': 'index'})
+@simple_page.route('/', defaults={'page': 'home'})
 @simple_page.route('/<page>')
+#@simple_page.route('/about', )
 
 def show(page):
     try:
