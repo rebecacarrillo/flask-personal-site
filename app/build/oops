@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I make mistakes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    
+<link rel="stylesheet" href="/static/css/mistakes.css">
+
+ <header>
+
+    <p class="hello_title"> The truth is that I fail endlessly </p>
+
+  </header>
+
+<div class="container">
+    <div id="hello">
+      <div class="anchor">
+
+        <p class="overlay"> we'll work on you </p>
+      </div>
+    </div>
+  </div>
+  <div class="monogram">
+    <p> 404 Man - Page Not Found </p>
+  </div>
+
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

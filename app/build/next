@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Rebeca Carrillo
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+<style type="text/css">
+        .navbar {
+        border: none;
+        margin-bottom:0;
+        }
+
+        .box {
+        height: 600px;
+        width: auto;
+        position: relative;
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+
+        }
+        .blurb {
+        background: white;
+        padding: 10px;
+        border-radius: 5%;
+
+        }
+
+        .squad {
+        position: relative;
+        height: 600px;
+        width: 500px;
+
+        background-image:url("/static/img/herosquad.jpg");
+        background-repeat: no-repeat;
+        background-size: 380px 500px;
+
+
+        }
+
+        .street {
+        height: 500px;
+        width: 400px;
+        position: relative;
+        padding: 40px;
+        margin: 50px;
+        background-image:url("/static/img/st.JPG");
+        background-repeat: no-repeat;
+        background-size: auto;
+        }
+
+        .greyboy {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+
+        }
+
+
+
+    </style>
+<div class="navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://beca.dev">Rebeca Carrillo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/art">Sofware Engineering</a></li>
+                    <li><a href="/values">Values</a></li>
+                    <li><a href="/next">Next</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+    
+ <link rel="stylesheet" href="/static/css/o.css">
+<link rel="stylesheet" href="/static/css/hover.css">
+<div class="column centered seven">
+
+    <div class=street>
+
+                  <div class="blurb">hey man like idk man no manches wey</div>
+
+      </div>
+</div>
+
+<section>
+
+  <div class="recent-content-tabs">
+
+
+
+</section>
+<div class="row"><div class="offset-by-six">
+<div class="recent-article">
+      <div class=squad>
+
+      </div>
+  </div>
+
+    </div>
+    </div>
+
+
+<section>
+
+  <div class="recent-content-tabs">
+  <div class="recent-article">
+
+</section>
+<div class="column centered four">
+    <div class=greyboy>
+
+      </div>
+</div>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

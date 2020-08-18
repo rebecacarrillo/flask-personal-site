@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Rebeca Carrillo
+</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+<style type="text/css">
+        .navbar {
+        border: none;
+        margin-bottom:0;
+        background-color: black;
+        }
+         .blkbox {
+
+        background-color: black;
+        padding: 50px;
+
+        margin-top: 50px;
+        height: 350px;
+                background-image:url("/static/img/dog.JPG");
+
+       }
+       .bahai {
+            font-family: serif;
+            color: orange;
+            text-transform: uppercase;
+            border: 1px solid;
+            margin: 20px;
+            padding: 60px;
+            background: #f5f5f5;
+            opacity: .9;
+       }
+
+       .grey {
+            height: auto;
+            width: auto;
+            background-color: #F0F0F0;
+            padding: 50px;
+       }
+
+       .trublk {
+            background-color: black;
+            height: auto;
+
+
+       }
+
+       .recent-content-container {
+       background-color: black;
+       }
+
+
+
+
+        .blurb {
+        padding: 40px;
+        border-radius: 15%;
+
+        }
+
+        .hero1 {
+        height: 600px;
+        width: auto;
+        position: relative;
+
+        padding: 100px;
+        margin: 50px;
+        background-image:url("/static/img/b1.jpg");
+        background-repeat: no-repeat;
+         background-size: auto;
+
+
+        }
+         .hero2 {
+        position: absolute;
+        height: 600px;
+        width: 400px;
+        padding: 50px;
+        margin-left: 30px;
+        margin-right: 10px;
+
+        background-image:url("/static/img/b3.jpg");
+                background-repeat: no-repeat;
+                          background-size: 400px 600px;
+
+
+
+
+        }
+    </style>
+<div class="navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://beca.dev">Rebeca Carrillo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/art">Sofware Engineering</a></li>
+                    <li><a href="/values"><b>Values</b></a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+    
+
+
+<link rel="stylesheet" href="/static/css/o.css">
+<link rel="stylesheet" href="/static/css/hover.css">
+<link rel="stylesheet" href="/static/css/main.css">
+
+<div class="team-content-container">
+
+
+    <div class="tagline"><h1><span>Codigo / </span>Values</span></h1></div>
+    <div class="row">
+
+    </div>
+</div>
+<div class="column centered six">
+        <div class="grey">
+
+<div class="bahai">
+
+        <p>For every one of you his paramount duty is to choose
+        for himself that on which no other may infringe and none usurp from him. </p>
+        <p> Such a thing--- and to  this the Almighty is My witness--- is the love of God,</p>
+        <p>could ye but perceive it.</p>
+
+    <p> - Baha'u'llah</p>
+    </div>
+</div>
+        <div class="column centered eight"></column>
+</div>
+</div>
+</div>
+</div>
+<section>
+<div class="row offset-by-two">
+
+
+
+<div class="blkbox">
+
+</div>
+<div class="column ten"><label>test
+</label></div>
+</div>
+</section>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
