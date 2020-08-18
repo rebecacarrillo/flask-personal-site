@@ -1,18 +1,22 @@
 from app import app
 from flask import Flask, render_template
 
+from flask import Blueprint
 
-@app.route('/')
+bapp = Blueprint('bapp', __name__)
+
+
+@bapp.route('/')
 def index():
     return render_template('base.html')
 
-@app.route('/home1')
+@bapp.route('/home1')
 def home():
     return render_template('home.html')
 
-@app.route('/about')
+@bapp.route('/about.html')
 def about():
-    return render_template('about.html')
+    return render_template('about.html.html')
 
 @app.route('/oops')
 def oops():

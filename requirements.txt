@@ -1,4 +1,5 @@
 Flask==0.12.4
 Flask-Bootstrap==3.3.7.1
 gunicorn==19.9.0
+flask_flatpages
 Frozen-Flask
