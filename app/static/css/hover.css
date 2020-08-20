@@ -6,7 +6,7 @@
 
 .ch-grid {
 	margin: 1px 0 0 0;
-	padding-left: 30px;
+	padding-left: 0px;
 	list-style: none;
 	display: inline-block;
 	text-align: center;
@@ -25,8 +25,8 @@
 }
 
 .ch-grid li {
-	width: 350px;
-	height: 250px;
+	width: 450px;
+	height: 350px;
 	display: inline-block;
 	margin: 10px;
 		border-radius: 50%;
@@ -50,6 +50,20 @@
 	transition: all 0.4s ease-in-out;
 }
 
+.ch-img-1 {
+
+
+}
+
+.ch-img-2 {
+}
+
+.ch-img-3 {
+}
+
+.ch-img-4 {
+
+}
 
 .ch-img-5 {
 	position: relative;
@@ -83,7 +97,7 @@
 
 .ch-info p {
 	color: #fff;
-	padding: 0px 0px;
+	padding: 30px 0px;
 	font-style: italic;
 	margin: 0px 0px;
 	text-align: center;

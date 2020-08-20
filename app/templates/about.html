@@ -22,6 +22,29 @@
         label {
         font-family:'Droid Serif';
         text-transform: uppercase;
+        }
+        .greyboy {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+
+        }
+
+        .ruth {
+        height: 300px;
+        width: auto;
+                background-repeat: no-repeat;
+
+                background-size: 250px 300px;
+
+                background-image:url("{{ url_for('static', filename='img/ruth.jpg') }}");
+
+        }
 
 
     </style>
@@ -59,12 +82,19 @@ many still think in this manner-has been established, destroyed, and reestab-
         </p>
     </div>
 </div>
+    <section>
+<div class="column centered four">
+    <div class=greyboy>
+        <div class="ruth">
+        </div>
 
+      </div>
+</div>
 </div>
     <div class="row"></div>
 
 <div class="column ten"><label>test
 </label></div>
-
+</section>
 {% endblock %}
 
