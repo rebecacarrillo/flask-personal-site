@@ -8,9 +8,9 @@ bapp = Blueprint('bapp', __name__)
 
 @bapp.route('/')
 def index():
-    return render_template('base.html')
+    return render_template('home.html')
 
-@bapp.route('/home1')
+@bapp.route('/home')
 def home():
     return render_template('home.html')
 

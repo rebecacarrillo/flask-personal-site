@@ -5,11 +5,13 @@
     <style type="text/css">
         .important { color: #336699; }
         .pic  {
-
             opacity: 10%;
+            position: relative;
         }
         .ch-item {
-
+            position: absolute;
+            height: 200px;
+            width: 200px;
                background-image:url("{{ url_for('static', filename='img/f2.jpg') }}");
 
         }
@@ -32,19 +34,26 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 
 <div class="team-content-container">
-<p class="lead">About Me</p> <ul class="ch-grid">
+    <div class="tagline"><h1>About <span> Me</span></h1></div>
+
+<ul class="ch-grid">
 
            <li>
                 <div class="ch-item">
+
                     <div class="pic"><p>Hi</p></div>
                 </div>
+
            </li>
 
 
 
         </ul>
 
-    <div class="tagline"><h1>I'm from the borderlands. <span> Soy de la frontera</span></h1></div>
+
+</div>
+
+<div class="row">
 <div class="column centered six">
     <div class="blurb">
 
@@ -53,6 +62,8 @@ own voluntary sacrifice and death, the restoration of the Sun, moon, earth,
 and human beings. The universe in which Mesoamericans have lived and
 many still think in this manner-has been established, destroyed, and reestab-
     lished several times: four according to the Maya, five in the Nahua tradition."</i></p>
+                    <div class="tagline"><h1>I'm from the borderlands. <span> Soy de la frontera</span></h1></div>
+
     <p>I grew up 30 minutes north of the Mexican border. My experience at the crux of cultures molded me.
     </p>
         <p>I fight strangers and build software. I'm really shy
@@ -63,7 +74,15 @@ many still think in this manner-has been established, destroyed, and reestab-
 </div>
     <div class="row"></div>
 
-<div class="column ten"><label>test
+<div class="column centered ten">
+    <label>
+        <center>
+<div class="row">
+  <div class="twelve columns">
+        <p>Twitter: @beca_carrillo<br>Insta: @rebecazoid<br></p>
+    </div>
+ </div>
+</center>
 </label></div>
 
 {% endblock %}

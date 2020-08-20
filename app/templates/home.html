@@ -8,13 +8,18 @@
         font-size: 50;
         }
         .hero {
-        padding: 100px;
-        margin: 40px;
+        padding: 10px;
+        margin: 4px;
+        background-image:url("{{ url_for('static', filename='img/vintage-boxing1.png') }}");
+        background-repeat: no-repeat;
+        background-size: 900px 500px;
 
 
-        background-image:url("{{ url_for('static', filename='img/b1.jpg') }}");
-        height: 700px;
-
+        }
+        p, .greet {
+            font-family:'Helvetica Neue', sans-serif;
+            font-weight: 12px;
+            font-color: grey;
 
         }
     </style>
@@ -51,9 +56,25 @@
  <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 
+<div class="team-content-container">
+        <div class="tagline"><h1>Que <span>Ondà</span>, Güey?</h1>
+            <div class="greet">
+            <p>Hola, me llamo Rebeca, y soy ingenera. <i><br>
+                 Hi, my name is Rebeca, and I'm an engineer.</i></p></div>
+
+      </div>
 
 
- </div>
+
+     <div id="header-container">
+    <div class="header full-header">
+
+      <div id="sequence">
+      <img src="https://beca.dev/img/bw.png">
+
+    </div>
+
+  </div>
 
 
 {% endblock %}
