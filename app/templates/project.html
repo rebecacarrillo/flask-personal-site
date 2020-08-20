@@ -1,40 +1,188 @@
-{% extends "base.html" %}
+{% extends "home.html" %}
+{% block title %}Project Draft{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+        .pic  {
 
-{% block bodyblock %}
-<div class="card d-flex align-items-center">
-    <img
-        class="card-img-top mycard"
-        src="{{ url_for('images', filename=project.imgfile, width=300) }}"
-        alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title">{{ project.title|replace("-", " ") }}</h5>
-        <p class="card-text">{{ project.long_desc }}</p>
+            opacity: 10%;
+        }
+
+        .blurb {
+        background: white;
+        padding: 40px;
+        border-radius: 15%;
+
+        }
+        .label {
+        font-family:'Droid Serif';
+        text-transform: uppercase;
+        }
+        .greyboy {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        padding: 100px;
+        magin-left: 10px;
+        margin-right: 0px;
+        background-color: #F0F0F0;
+
+        }
 
 
-        <div class="d-flex flex-wrap">
-            {% if project.website %}
-                <a
-                    href="{{ project.website }}"
-                    target="_blank"
-                    class="card-link"
-                ><i class="fas fa-globe"></i> Website</a>
-            {% endif %}
-            <a
-                href="{{ project.github_url }}"
-                target="_blank"
-                class="card-link"
-            ><i class="fab fa-github"></i> GitHub Repo</a>
-            <a
-                href="#"
-                class="card-link"
-                id="backlink"
-            ><i class="fas fa-arrow-left"></i> Go Back</a>
-        </div>
+    </style>
+{% endblock %}
+
+
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+
+<style type="text/css">
+
+        .c {
+            border: none;
+        }
+
+        .info {
+        margin: 10px;
+        padding: 20px;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+
+        }
+        .navbar {
+        margin: 10px;
+        display: inline-block;
+        width: 90%;
+        font-family: 'Droid serif', 'Garamond';
+        color: white;
+        border: none;
+        background-color: #211D1E;
+
+        }
+        .navbar li:hover {
+        color: #e2dedb;
+  background: #ec503b;}
+
+
+
+
+        body {
+            background-color: #211D1E;
+            font-family: 'Droid serif', 'Garamond';
+            color: white;
+
+        }
+
+        .fmat {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: light;
+            text-transform: uppercase;
+            font-size: 12px;
+            color: white;
+            padding: 40px;
+            position: absolute;
+  right: -20px;
+             -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  -webkit-transition: left 250ms ease, color 250ms ease;
+  transition: left 250ms ease, color 250ms ease
+
+        }
+        .fmat a:hover {
+            background-color: #ec503b;
+        }
+
+        .box {
+            border-bottom: 1px solid white;
+        }
+
+        .hl
+        {
+            border-right: 1px solid white;
+            position: absolute;
+            width: 80%;
+            height: 800px;
+            margin-right: 30px;
+        }
+        .r-container {
+        margin-top: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-right: 10%;
+  height: 500px;
+        }
+
+        .dog {
+        position: relative;
+
+        height: 200px;
+        width: 200px;
+        background-color: black;
+        background-image:url("{{ url_for('static', filename='img/dog.JPG') }}");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                                background-size: auto
+                                }
+
+
+
+ </style>
+<body>
+<section>
+ <div class="hl"><div class="r-container">
+
+    <div class="fmat">Values</div>
+   </div>
+
+</section>
+</div>
+    <div class="recent-container">
+<div class="row offset-by-two">
+    <div class="dog"></div>
+    <div class="column centered four">
+                <div class="info">
+
+        <subheader>
+        [SUBHEADER]Lorem ipsum dolor sit amet, sapien etiam,
+        nunc amet dolor ac odio mauris justo.
+        Luctus arcu, urna praesent at id quisque ac. Arcu es massa vestibulum malesuada,
+        integer vivamus elit eu mauris eus, cum eros quis aliquam wisi. Nulla wisi laoreet suspendisse
+        nteger vivamus elit eu mauris hendrerit facilisi,
+        mi mattis pariatur aliquam pharetra eget.
+        </subheader>
     </div>
 </div>
-{% endblock %}
-<div id="footer">
-        {% block footer %}
-        &copy; Copyright 2020 by <a href="http://beca.dev/">Borky</a>.
-        {% endblock %}
     </div>
+</div>
+    </div>
+
+
+</body>
+    <script>
+        $().ready(function() {
+			// menu button for top nav
+			$('.menu-button a').click(function(e) {
+		  	e.preventDefault();
+		  	$('nav ul.main-nav').toggleClass('active');
+			});
+			// # links
+			$('a[href="#"]').click(function(e) {
+				$('html, body').animate({scrollTop:0}, 'slow');
+			});
+		});
+    </script>
+{% endblock %}
+
+{% block footer %}
+
+<div id="footer">
+
+        &copy; Copyright 2020 by <a href="http://beca.dev/">Borky</a>.
+        </div>
+
+        {% endblock %}

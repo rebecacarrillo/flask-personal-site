@@ -57,6 +57,10 @@ def old():
 def art():
     return render_template('art.html')
 
+@app.route('/project.html')
+def project():
+    return render_template('project.html')
+
 @app.route('/values.html')
 def values():
     return render_template('values.html')
