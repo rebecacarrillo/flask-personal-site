@@ -14,67 +14,20 @@
         background-repeat: no-repeat;
         background-size: 900px 500px;
 
+        }
+        .hero1 {
+        height: 900px;
+        width: 100%;
+        position: absolute;
+
+        padding: 100px;
+        margin: 50px;
+        background-image:url("{{ url_for('static', filename='img/b1.jpg') }}");
+        background-repeat: no-repeat;
+         background-size: 900px 500px;
+
 
         }
-        .ch-grid {
-	margin: 1px 0 0 0;
-	padding-left: 0px;
-	list-style: none;
-	display: inline-block;
-	text-align: center;
-}
-.ch-grid:after,
-.ch-item:before {
-    display: none;
-    background: #fff;
-}
-
-
-.ch-grid:after {
-	clear: left;
-}
-
-        p, .greet {
-            font-family:'Helvetica Neue', sans-serif;
-            font-weight: 12px;
-            font-color: grey;
-
-        }
-        .ch-img-1 {
-
-
-                background-image:url("{{ url_for('static', filename='img/jfish.JPG') }}");
-                        background-repeat: no-repeat;
-                                background-size: 400px 300px;
-
-
-
-
-}
-.ch-img-2 {
-background-image:url("{{ url_for('static', filename='img/st.JPG') }}");
-                        background-repeat: no-repeat;
-                                                background-position: center;
-
-                                background-size: auto;
-
-}
-
-.ch-img-3 {
-background-image:url("{{ url_for('static', filename='img/galaxy.JPG') }}");
-                        background-repeat: no-repeat;
-                                background-size: 400px 300px;
-
-}
-
-.ch-img-4 {
-
-background-color: black;
-background-image:url("{{ url_for('static', filename='img/dog.JPG') }}");
-                        background-repeat: no-repeat;
-                        background-position: center;
-                                background-size: auto;
-}
 
 
 
@@ -114,9 +67,7 @@ background-image:url("{{ url_for('static', filename='img/dog.JPG') }}");
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 <div class="team-content-container">
         <div class="tagline"><h1>Que <span>Ondà</span>, Güey?</h1></div>
-        <div class="row">
-            <center>
-                <div class="three columns">
+
             <p>Hola, me llamo Rebeca, y soy ingenera. </p>
             <em>Hi, my name is Rebeca, and  I'm an engineer</em>
             <br><br>
@@ -132,127 +83,11 @@ background-image:url("{{ url_for('static', filename='img/dog.JPG') }}");
                     </ul>
                     </nav>
 
-
-
-             </center>
-
-
-
-
-
-     <div id="header-container">
-    <div class="header full-header">
-
-      <img src="https://beca.dev/img/bw.png">
-
-    </div>
-  </div>
-
-</div>
-    <div class="tagline-container">
-        <div class="home-tagline"><h2>About <span>Me</span>: fast facts</h2></div></div>
-
-
-
-</div>
-
-      <div class="footer-inner-container">
-            <section class="about-us-history">
-      <center>
-      <ul class="ch-grid">
-
-
-				<li>
-				  <div class="ch-item ch-img-1">
-							<div class="ch-info">
-                                <p>I like being alive</p>
-
-
-							</div>
-						</div>
-					</li>
-
-
-      </ul>
-</center>
-                </section>
-
-
-       <div class="home-tagline">
-      <h2>I'm interested in the study of <span>complex networks,</span> especially living ones.</h2>
- </div>
-
-    <div class="twelve columns">
-        <p>During my undergrad, I became interested in the way organized crime networks can be shown, like many other human systems, to follow natural laws. For my bachelor's thesis, I designed and implemented a multidimensional network analysis model for understanding patterns in the inter-network activity of Mexican drug trafficking cartels. Mathematically, I found that information and activity travels through these criminal networks in much the same way that information travels in unicellular, nonhierarchical organisms, specifically following similar behavior patterns as the metabolic pathway in some bacterial cells. I'm interested in learning more about whether this quality is unique to illict organizations, or observable in other common social structures.</p> <p>The framework for this project was done in R, Python and GEPHI</p>
-    </div>
-  </div>
         </div>
-  </div>
-</div>
 
 
 
-
-<section class="tagline-container">
-<div class="row">
-    <div class="home-tagline">
-      <h2>When I'm not writing code, I'm usually <span>on the mats</span>.</h2>
-    </div>
-</div>
-</section>
-
-<section>
-
-  <div class="recent-article-container">
-    <div class="row">
-        <div class="twelve columns">
-        <section class="recent">
-        </section>
-        <ul class="row">
-      <li class="four columns">
-        <div class="recent-article">
-    <a href="https:///zoidbjj.com" class="th">
-            <img src="https://beca.dev/img/nationals.JPG"></a>
-            <div class="recent-article-content">
-             <div class="recent-article-inner">
-                 <h4>IBJJF American Nationals<span>2019</span></h4>
-                 <p><small>Bronze</small></p>
-                 </div>
-                 </div>
-                 </div>
-        </li>
-
-    <li class="four columns">
-        <div class="recent-article">
-          <a href="https://zoidbjj.com" class="th">
-            <img src="https://beca.dev/img/gg.JPG"></a>
-            <div class="recent-article-content">
-             <div class="recent-article-inner">
-                 <h4>GG PRo 87 </h4>
-                 </div>
-
-                 </div>
-                 </div>
-                 </li>
-
-
-        <li class="four columns">
-        <div class="recent-article">
-            <img src="https://beca.dev/img/2019nationals.jpg" alt="armraise">
-            <div class="recent-article-content">
-                             <div class="recent-article-inner">
-                                 <p></p>
-                            </div>
-                 </div>
-                 </div>
-                 </li>
-                 </ul>
-        </div>
-    </div>
-  </div>
-</section>
-
-
+<div class="hero"></div>
 
 {% endblock %}
 
