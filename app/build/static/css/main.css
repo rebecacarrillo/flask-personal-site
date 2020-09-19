@@ -199,7 +199,7 @@ input[type="password"] {
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #aca49c;
   font-size: 0.875em;
-  font-family: 'Lato';
+  font-family: 'Open Sans';
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
