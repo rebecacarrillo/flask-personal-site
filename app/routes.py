@@ -26,6 +26,10 @@ def oops():
 def nxt():
     return render_template('next.html')
 
+@app.route('/pjt')
+def pjt():
+    return render_template('project.html')
+
 @app.route('/old')
 def old():
     return render_template('old.html')
