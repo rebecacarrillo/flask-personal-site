@@ -10,9 +10,61 @@
         .hero {
         padding: 10px;
         margin: 4px;
-        background-image:url("{{ url_for('static', filename='img/rc1.png') }}");
+        background-image:url("{{ url_for('static', filename='img/lcup.png') }}");
         background-repeat: no-repeat;
         size: 900px 500px;
+
+        }
+        .rt {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        padding-top: 50px;
+        padding: 30px;
+           font-family: 'Open Sans', sans-serif;
+            font-weight: light;
+            text-transform: uppercase;
+
+        background-image:url("{{ url_for('static', filename='img/lcup.png') }}");
+        background-repeat: no-repeat;
+        background-size: 325px 300px;
+
+        }
+
+        .mid {
+        position: relative;
+        height: 500px;
+        width: 500px;
+        margin: 20px;
+        padding-top: 60px;
+        padding: 30px;
+           font-family: 'Open Sans', sans-serif;
+            font-weight: light;
+            text-transform: uppercase;
+
+        background-image:url("{{ url_for('static', filename='img/fav.png') }}");
+        background-repeat: no-repeat;
+        background-size: 525px 500px;
+
+
+        }
+        .lmid {
+        position: relative;
+        height: 500px;
+        width: 500px;
+        right: -400px;
+        margin: 20px;
+
+        padding-top: 60px;
+        padding: 30px;
+           font-family: 'Open Sans', sans-serif;
+            font-weight: light;
+            text-transform: uppercase;
+
+        background-image:url("{{ url_for('static', filename='img/og.png') }}");
+        background-repeat: no-repeat;
+        background-size: 525px 500px;
+
 
         }
         .hero1 {
@@ -41,14 +93,10 @@
 
 
         .blurb {
-        background: white;
-        padding: 40px;
-        border-radius: 15%;
+        font-family:'Droid Serif', Serif;
+        text-transform: uppercase;
 
         }
-        label {
-        font-family:'Droid Serif';
-        text-transform: uppercase;
 
 
 
@@ -88,45 +136,22 @@
  <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
 <div class="team-content-container">
-    <nav><ul>
-                          <li>
-                                  <a class="active" href="https://linktr.ee/rebecazoid">Linktree</a>
-                          </li>
-                          <li><a class="active" href="https://calendly.com/rbacarrillo">Calendly</a></li>
-                          <li><a class="active" href="http://www.github.com/rebecacarrillo"> Github </a></li>
-                    </ul>
-                    </nav>
-        <div class="tagline"><h1>Que <span>Ondà</span>, Güey?</h1></div>
-
-            <p>Hola, me llamo Rebeca, y soy ingenera. </p>
-            <em>Hi, my name is Rebeca, and  I'm an engineer</em>
-            <br><br>
-    <center>
-<div class="pic1">
- </div>
-
-
-        </center>
-
-        </div>
-
 <div class="row">
-
-     <div id="header-container">
-    <div class="header full-header">
-
-      <div id="sequence">
-
+    <div class="column push-one">
+    <div class="mid">
     </div>
- <div class="column centered six">
-
-
-
-  </div>
-<div class="column centered six">
-    <div class="blurb">
+    </div>
+                 <div class="lmid"></div>
 
 </div>
+
+</div>
+
+
+    <div class="column push-eight">
+        <div class="rt">
+      </div>
+  </div>
 
 
 
