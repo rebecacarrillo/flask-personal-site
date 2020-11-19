@@ -7,105 +7,37 @@
         margin-bottom:0;
         font-size: 50;
         }
-        .hero {
-        padding: 10px;
-        margin: 4px;
-        background-image:url("{{ url_for('static', filename='img/lcup.png') }}");
-        background-repeat: no-repeat;
-        size: 900px 500px;
+          .pic_home {
+
+            height: 100px;
+            width: 410px;
+            border: 1px solid white;
+            background-image:url("{{ url_for('static', filename='img/pl.png') }}");
+                                    background-repeat: no-repeat;
+                                    background-size: 550px 170px;
+
 
         }
-        .rt {
+          .squad {
         position: relative;
-        height: 300px;
-        width: 300px;
+        height: 600px;
+        width: 500px;
         padding-top: 50px;
         padding: 30px;
            font-family: 'Open Sans', sans-serif;
             font-weight: light;
             text-transform: uppercase;
 
-        background-image:url("{{ url_for('static', filename='img/lcup.png') }}");
+        background-image:url("{{ url_for('static', filename='img/st.JPG') }}");
         background-repeat: no-repeat;
-        background-size: 325px 300px;
-
-        }
-
-        .mid {
-        position: relative;
-        height: 500px;
-        width: 500px;
-        margin: 20px;
-        padding-top: 60px;
-        padding: 30px;
-           font-family: 'Open Sans', sans-serif;
-            font-weight: light;
-            text-transform: uppercase;
-
-        background-image:url("{{ url_for('static', filename='img/fav.png') }}");
-        background-repeat: no-repeat;
-        background-size: 525px 500px;
+        background-size: 380px 500px;
 
 
         }
-        .lmid {
-        position: relative;
-        height: 500px;
-        width: 500px;
-        right: -400px;
-        margin: 20px;
-
-        padding-top: 60px;
-        padding: 30px;
-           font-family: 'Open Sans', sans-serif;
-            font-weight: light;
-            text-transform: uppercase;
-
-        background-image:url("{{ url_for('static', filename='img/og.png') }}");
-        background-repeat: no-repeat;
-        background-size: 525px 500px;
-
-
-        }
-        .hero1 {
-        height: 150px;
-        width: 220px;
-
-        margin: 50px;
-        background-image:url("{{ url_for('static', filename='img/rc3.png') }}");
-        background-repeat: no-repeat;
-         background-size: 220px 150px;
-
-        }
-        .pic1  {
-
-            height: 200px;
-            padding: 5px;
-            width: 250px;
-            border: 2px solid white;
-            background-image:url("{{ url_for('static', filename='img/rc3.png') }}");
-                                    background-repeat: no-repeat;
-            background-size: 250px 200px;
-
-
-
-        }
-
-
-        .blurb {
-        font-family:'Droid Serif', Serif;
-        text-transform: uppercase;
-
-        }
-
-
-
 
 
     </style>
-<div class="navbar">
     <nav class="navbar navbar-default">
-        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -126,32 +58,53 @@
                 </ul>
 
             </div>
-        </div>
+
     </nav>
-</div>
+
 
 {% endblock %}
 
 {% block content %}
- <link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/o.css') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css') }}">
+    <center>
+
+     <div class="recent-container">
+                <div class="pic_home"></div>
+
+<div class="column centered four">
+    <div class=squad>
+
+
+</div>
+
+
+
+
+
+      </div>
+
+</center>
+
+
+</div>
 <div class="team-content-container">
+
 <div class="row">
     <div class="column push-one">
     <div class="mid">
     </div>
     </div>
+                        <div class="tagline"><h1>Que Onda, <span> Guey?</span></h1></div>
+        <p class="lead">Hi, my name is Rebeca, and I'm an engineer.</p>
+
                  <div class="lmid"></div>
 
 </div>
 
 </div>
-
-
-    <div class="column push-eight">
-        <div class="rt">
-      </div>
-  </div>
+</section>
 
 
 
